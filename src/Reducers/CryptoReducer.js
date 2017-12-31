@@ -5,11 +5,11 @@ import {
 } from './../Utils/ActionTypes';
 
 const initialState = {
-    isFetching: false,
-    data: null,
+    isFetching: null,
+    data: [],
     hasError: false,
-    errorMessage: null
-}
+    errorMessage: null,
+  }
 
 export default function(state = initialState, action) {
 
