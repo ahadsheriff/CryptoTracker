@@ -26,4 +26,3 @@ const Store = createStore(
 );
 
 export default Store;
-
